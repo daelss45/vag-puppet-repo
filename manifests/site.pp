@@ -1,6 +1,4 @@
 # 
-node default {
-
 class dev_environment {
 	user { "daelss45":
 		ensure		=> present,
@@ -15,4 +13,4 @@ class dev_environment {
 		source		=> "puppet:///vagrant/.vimrc",
 	}
 }
-}
+
