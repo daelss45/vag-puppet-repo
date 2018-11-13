@@ -1,0 +1,1 @@
+# vag-puppet-repo
