@@ -1,5 +1,4 @@
-# 
- node default {
+node default {
    class { 'dev_environment':
      user { "daelss45":
        ensure      => present,
