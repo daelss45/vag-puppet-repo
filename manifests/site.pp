@@ -1,5 +1,5 @@
 # 
-class dev_environment {
+class default {
 	user { "daelss45":
 		ensure		=> present,
 		manage_home	=> true,
