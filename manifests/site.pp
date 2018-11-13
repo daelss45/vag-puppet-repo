@@ -1,16 +1,16 @@
 node default {
    class { 'dev_environment':
-     user { "daelss45":
+     user { 'daelss45':
        ensure      => present,
        manage_home => true,
        group       => ['wheel'],
      }
-     package { "vim":
+     package { 'vim':
        ensure      => present,
      }
-     file { "/home/daelss45/.vimrc":
+     file { '/home/daelss45/.vimrc':
        ensure      => file,
-       #source      => "puppet:///vagrant/.vimrc",
+       #source      => 'puppet:///vagrant/.vimrc',
      }
    }
  }
