@@ -11,7 +11,7 @@
      }
      file { "/home/daelss45/.vimrc":
        ensure      => file,
-       source      => "puppet:///vagrant/.vimrc",
+       #source      => "puppet:///vagrant/.vimrc",
      }
    }
  }
