@@ -1,7 +1,7 @@
 node default {
    file {'/root/README':
       ensure  => file,
-      content => "This is a readme.\n",
+      content => "https://docs.puppet.com/latest.type.html\n",
       owner   => 'root',
    }
 }
