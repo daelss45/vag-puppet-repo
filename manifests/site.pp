@@ -1,5 +1,5 @@
 node default {
 }
-node 'node1.example.com' {
+node 'mgmt.example.com' {
   include role::master_server
 }
